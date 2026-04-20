@@ -1,12 +1,36 @@
 import React from 'react'
+import Image from 'next/image'
+
 
 export default function Hero() {
   return (
-    <div className='container py-24'>
-      <div className='flex justify-center'>
-        <div className='inline-flex py-1 px-5 bg-gradient-to-r from-purple-900 to-cyan-700 rounded-full font-semibold'>$7.5 seed round raised</div>
+    <section className='py-24'>
+       <div className='container relative'>
+
+      <div className='absolute -left-20 top-16'>
+        <Image
+          className=""
+          src="/assets/images/design-example-1.png"
+          alt="design-example 1 image"
+          width={300}
+          height={300}
+        />
+      </div>
+      <div className='absolute -right-25 -top-16'>
+        <Image
+          className=""
+          src="/assets/images/design-example-2.png"
+          alt="design-example 2 image"
+          width={300}
+          height={300}
+        />
       </div>
 
+      <div className='flex justify-center'>
+        <div className='inline-flex py-1 px-5 bg-gradient-to-r from-purple-900 to-cyan-700 rounded-full font-semibold'>
+          $7.5 seed round raised
+          </div>
+      </div>
 
       <h1 className='text-6xl font-medium text-center mt-6'>Impactfull design, create effortless experiences</h1>
       <p className='text-center text-xl text-white/50 mt-8'>Featuring stories about species protection, climate change, renewable energy, and more! Together, we can spread environmental
@@ -26,5 +50,7 @@ export default function Hero() {
         </button>
       </form>
     </div>
+    </section>
+   
   )
 }

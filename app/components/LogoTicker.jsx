@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 
-
 export default function LogoTicker() {
   return (
     <div className="container">
@@ -9,13 +8,13 @@ export default function LogoTicker() {
         <div>
           <Image
             className=""
-            src="/logo.svg"
+            src="/assets/images/logo.svg"
             alt="logo image"
             width={100}
             height={100}
           />
         </div>
-      
+
         <div className="flex justify-end">
           {/* here svg image */}
           <svg xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +26,7 @@ export default function LogoTicker() {
               strokeLinejoin="round"
               d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
-       
+
         </div>
       </div>
     </div>

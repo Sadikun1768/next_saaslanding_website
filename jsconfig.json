@@ -1,3 +1,5 @@
+
+//age cilo ata
 {
   "compilerOptions": {
     "paths": {
@@ -5,3 +7,23 @@
     }
   }
 }
+
+//pore ata likha hoise
+
+// {
+//   "compilerOptions": {
+//     "baseUrl": ".",
+//     "paths": {
+//       "@/*": ["src/*"]
+//     }
+//   }
+// }
+
+// তারপর import করতে পারবে:
+// import logo from "@/assets/images/logo.svg";
+// import Image from "next/image";
+
+// export default function LogoTicker() {
+//   return <Image src={logo} alt="Logo" width={120} height={40} />;
+// }
+
