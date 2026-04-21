@@ -7,7 +7,7 @@ export default function Hero() {
     <section className='py-24'>
        <div className='container relative'>
 
-      <div className='absolute -left-20 top-16'>
+      <div className='absolute -left-5 top-16'>
         <Image
           className=""
           src="/assets/images/design-example-1.png"
@@ -16,7 +16,7 @@ export default function Hero() {
           height={300}
         />
       </div>
-      <div className='absolute -right-25 -top-16'>
+      <div className='absolute -right-5 -top-16'>
         <Image
           className=""
           src="/assets/images/design-example-2.png"
@@ -32,8 +32,8 @@ export default function Hero() {
           </div>
       </div>
 
-      <h1 className='text-6xl font-medium text-center mt-6'>Impactfull design, create effortless experiences</h1>
-      <p className='text-center text-xl text-white/50 mt-8'>Featuring stories about species protection, climate change, renewable energy, and more! Together, we can spread environmental
+      <h1 className='text-6xl font-medium text-center mx-auto max-w-2xl mt-6'>Impactfull design, create effortless experiences</h1>
+      <p className='text-center text-xl text-white/50 mx-auto max-w-2xl mt-8'>Featuring stories about species protection, climate change, renewable energy, and more! Together, we can spread environmental
         awareness and keep our planet clean. Be Proud of your City. Join The World Mission</p>
 
       <form className='flex justify-between border border-white/15 rounded-full p-4 mt-8'>
