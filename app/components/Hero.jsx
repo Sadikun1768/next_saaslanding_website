@@ -36,8 +36,8 @@ export default function Hero() {
       <p className='text-center text-xl text-white/50 mx-auto max-w-2xl mt-8'>Featuring stories about species protection, climate change, renewable energy, and more! Together, we can spread environmental
         awareness and keep our planet clean. Be Proud of your City. Join The World Mission</p>
 
-      <form className='flex justify-between border border-white/15 rounded-full p-4 mt-8'>
-        <input
+      <form className='flex justify-between border-6 border-white/15 rounded-full max-w-lg p-4 mt-8 mx-auto'>
+        <input 
           type='email'
           className='bg-transparent px-4 text-sm'
           placeholder='Please Enter Your Name'
