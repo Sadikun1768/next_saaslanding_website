@@ -7,17 +7,11 @@ export default function LogoTickerTwo() {
             <h1 className="text-3xl font-bold text-center text-white/50">
                 Already chosen by these market leaders
             </h1>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
+             <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-16">
+                   {/* <div className="flex flex-wrap justify-center gap-4 mt-16"> */}
                 <Image
                     className=""
                     src="/assets/images/celestial.svg"
-                    alt="logo image"
-                    width={200}
-                    height={200}
-                />
-                <Image
-                    className=""
-                    src="/assets/images/acme-corp.svg"
                     alt="logo image"
                     width={200}
                     height={200}
@@ -28,38 +22,17 @@ export default function LogoTickerTwo() {
                     alt="logo image"
                     width={200}
                     height={200}
-                />
-                <Image
-                    className=""
-                    src="/assets/images/outside.svg"
-                    alt="logo image"
-                    width={200}
-                    height={200}
-                />
-                <Image
-                    className=""
-                    src="/assets/images/pulse.svg"
-                    alt="logo image"
-                    width={200}
-                    height={200}
-                />
+                />            
                 <Image
                     className=""
                     src="/assets/images/quantum.svg"
                     alt="logo image"
                     width={200}
                     height={200}
-                />
-                <Image
+                />  
+                 <Image
                     className=""
-                    src="/assets/images/twice.svg"
-                    alt="logo image"
-                    width={200}
-                    height={200}
-                />
-                <Image
-                    className=""
-                    src="/assets/images/apex.svg"
+                    src="/assets/images/echo-valley.svg"
                     alt="logo image"
                     width={200}
                     height={200}
