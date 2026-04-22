@@ -11,13 +11,16 @@ export default function FeaturesPage() {
     <div className='container mx-auto py-2'>
 
       <Navbar />
-      <div className='min-h-screen flex flex-col items-center justify-center'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10'>
 
-        <ul>
+        <ul className=''>
           {
             integrations.map((integration) => (
-              <li key={integration.id}>
+              <li 
+              key={integration.id}
+              className='grid grid-cols-1  gap-4 items-center justify-center text-center py-2 border mb-3 rounded-md'>
                 <Image
+                  className='align-middle mx-auto'
                   src={integration.icon}
                   alt={integration.title}
                   width={50}
