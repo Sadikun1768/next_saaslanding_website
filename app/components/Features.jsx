@@ -1,4 +1,3 @@
-import { features } from "../../lib/features";
 import FetureCard from "./FetureCard";
 import Image from "next/image";
 
@@ -81,13 +80,7 @@ export default function Features() {
 
       </div>
 
-      <div>
-        {features.map((feature) => (
-          <div key={feature} className="mt-6">
-            <h3>{feature}</h3>
-          </div>
-        ))}
-      </div>
+ 
 
     </div>
   )

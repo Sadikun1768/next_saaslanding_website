@@ -1,3 +1,4 @@
+import Achive from "./components/Achive";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -35,6 +36,11 @@ export default function Home() {
       <div className="container mx-auto py-2">
 
         <Features />
+
+      </div>
+      <div className="container mx-auto py-2">
+        
+        <Achive />
 
       </div>
       <div className="container mx-auto py-2">
