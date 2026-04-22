@@ -44,7 +44,7 @@ export default function Hero() {
         />
         <button
           type='submit'
-          className='p-2 bg-cyan-900 hover:bg-cyan-50 hover:text-black text-white rounded text-sm'
+          className='p-2 bg-lime-700 hover:bg-cyan-50 hover:text-black text-white rounded text-sm'
         >
           Sign Up
         </button>

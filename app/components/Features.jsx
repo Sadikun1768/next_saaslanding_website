@@ -1,6 +1,6 @@
 import { features } from "../../lib/features";
 import FetureCard from "./FetureCard";
-
+import Image from "next/image";
 
 
 export default function Features() {
@@ -14,22 +14,71 @@ export default function Features() {
 
       <div className="grid grid-cols-2 gap-8 mt-12">
         {/* akhane card props asbe */}
-        <FetureCard
-          title="Real-time Collaboration"
-          description="Collaborate with your team in real-time, sharing ideas and feedback instantly."
-        />
-        <FetureCard
-          title="Version Control"
-          description="Keep track of changes and manage different versions of your work."
-        />
-        <FetureCard
-          title="Keyboard  Quick Actions"
-          description="Perform common tasks quickly with keyboard shortcuts."
-        />
-        <FetureCard
-          title="Customizable Templates"
-          description="Perform common tasks quickly with keyboard shortcuts."
-        />
+        <div className="flex flex-col items-center">
+          <div className="flex items-center justify-center">
+            <Image
+              className="rounded-full"
+              src="/assets/images/avatar-florence-shaw.jpg"
+              alt="design-example 1 image"
+              width={100}
+              height={100}
+            />
+          </div>
+          <FetureCard
+            title="Keyboard  Quick Actions"
+            description="Perform common tasks quickly with keyboard shortcuts."
+          />
+        </div>
+
+        <div className="flex flex-col items-center">
+          <div className="flex items-center justify-center">
+            <Image
+              className="rounded-full"
+              src="/assets/images/avatar-ashwin-santiago.jpg"
+              alt="design-example 1 image"
+              width={100}
+              height={100}
+            />
+          </div>
+
+          <FetureCard
+            title="Customizable Templates"
+            description="Perform common tasks quickly with keyboard shortcuts."
+          />
+        </div>
+
+        <div className="flex flex-col items-center">
+          <div className="flex items-center justify-center">
+            <Image
+              className="rounded-full"
+              src="/assets/images/avatar-lula-meyers.jpg"
+              alt="design-example 1 image"
+              width={100}
+              height={100}
+            />
+          </div>
+          <FetureCard
+            title="Version Control"
+            description="Keep track of changes and manage different versions of your work."
+          />
+        </div>
+
+        <div className="flex flex-col items-center">
+          <div className="flex items-center justify-center">
+            <Image
+              className="rounded-full"
+              src="/assets/images/avatar-owen-garcia.jpg"
+              alt="design-example 1 image"
+              width={100}
+              height={100}
+            />
+          </div>
+          <FetureCard
+            title="Version Control"
+            description="Keep track of changes and manage different versions of your work."
+          />
+        </div>
+
       </div>
 
       <div>

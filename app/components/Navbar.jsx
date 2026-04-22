@@ -38,8 +38,8 @@ const pathname = usePathname();
         </Link>
       </nav>
        <div className='flex gap-3'>
-            <button type="submit" className="border border-white text-white bg-cyan-900 hover:bg-lime-300 p-2 rounded text-sm">Sign In</button>
-            <button type="submit" className="border border-white text-white bg-cyan-900 hover:bg-lime-300 p-2 rounded text-sm">Sign Up</button>
+            <button type="submit" className="border border-white text-white bg-lime-700 hover:bg-lime-900 p-2 rounded text-sm">Sign In</button>
+            <button type="submit" className="border border-white text-white bg-lime-700 hover:bg-lime-900 p-2 rounded text-sm">Sign Up</button>
         </div>
 
     </div>
