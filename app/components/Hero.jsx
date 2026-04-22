@@ -7,7 +7,7 @@ export default function Hero() {
     <section className='py-24'>
        <div className='container relative'>
 
-      <div className='absolute -left-5 top-16'>
+      <div className='absolute -left-5 top-16 md:block hidden'>
         <Image
           className=""
           src="/assets/images/design-example-1.png"
@@ -16,7 +16,7 @@ export default function Hero() {
           height={300}
         />
       </div>
-      <div className='absolute -right-5 -top-16'>
+      <div className='absolute -right-5 -top-16 md:block  hidden'>
         <Image
           className=""
           src="/assets/images/design-example-2.png"

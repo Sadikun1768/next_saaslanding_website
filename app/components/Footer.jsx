@@ -12,7 +12,7 @@ export default function Footer() {
       </div>
       <div>
         <p className="text-center text-sm text-white/60 mt-15">
-          &copy; 2026 Sasasland. All rights reserved. | Designed by Servicekey.
+          &copy; 2026 Sasasland. All rights reserved. | Developed by Servicekey.
         </p>
       </div>
     </div>
