@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <div className="container py-20">
+    <div className="container text-center py-20">
 
       <span className="inline-flex border px-3 py-2 text-lime-400 rounded-full font-semibold">Features</span>
       <h2 className="text-3xl font-bold mt-4">Where power meets simplicity</h2>
