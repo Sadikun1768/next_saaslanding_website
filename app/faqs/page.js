@@ -11,7 +11,7 @@ export default function FaqsPage() {
       <Navbar />
 
       <div className='w-fit mx-auto'>
-        <div className='text-center outline md:outline-dashed ... rounded-full text-lime-700 py-2 px-4 mt-20 mx-auto w-fit'>Faqs Page</div>
+        <div className='text-center border rounded-full text-lime-700 py-2 px-4 mt-20 mx-auto w-fit'>Faqs Page</div>
         <h1 className='text-center text-3xl font-bold mt-10'>Questions? We've Got <span className='text-lime-400'>Answers</span></h1>
 
         <div className='flex items-center justify-between border-b-2 rounded-2xl py-3 px-2 mt-10'>
